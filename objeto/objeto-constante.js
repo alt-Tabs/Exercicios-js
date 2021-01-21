@@ -9,7 +9,7 @@ console.log(pessoa)
 Object.freeze(pessoa) //torna 'pessoa' inalterável
 
 pessoa.nome= 'Maria'
-pessoa.end = 'Rua ABC'S
+pessoa.end = 'Rua ABC'
 delete pessoa.nome
 
 console.log(pessoa.nome)
